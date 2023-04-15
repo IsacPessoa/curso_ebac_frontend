@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #95a3b3;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+
+form label {
+    display: block;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form input, form button{
+    padding: 8px;
+    font-size: 24px;
+    width: 40%;
+    border-color: black;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+    width: 40%;
+    font-size: 24px;
+    border: none;
+}
+
+form button {
+    width: 18%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+label.error {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
