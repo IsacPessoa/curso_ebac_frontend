@@ -1,0 +1,18 @@
+@use 'variaveis.scss';
+
+ul.menu {
+    display: flex;
+
+    li {
+        list-style: none;
+        font-weight: bold;
+        margin-left: 24px;
+
+        a {
+            color: variaveis.$corDeFundo;
+            text-decoration: none;
+        }
+
+    }
+
+}
